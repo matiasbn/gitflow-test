@@ -18,7 +18,6 @@ exports.lambdaHandler = async (event, context) => {
   const result = await axios.get('https://anapioficeandfire.com/api/characters/583');
   console.log(result.data.name);
   console.log(result.data.gender);
-  console.log(result.data.gender);
   try {
     // const ret = await axios(url);
     response = {
